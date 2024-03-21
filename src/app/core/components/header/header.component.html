@@ -1,0 +1,25 @@
+<header>
+    <img src="./assets/logo.png" alt="Logo da empresa Angular" width="30px"
+        height="30px">
+
+    <ul>
+        <li>
+            <a [routerLink]="['']">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="['/sobre']">Sobre</a>
+        </li>
+        <li>
+            <a>Sair</a>
+        </li>
+        <li>
+            <button type="button" (click)="toggle()">
+                <img src="./assets/{{ icon }}.png"
+                    alt="aqui e mude o Theme do Site para Dark Theme"
+                    width="30px" height="30px">
+            </button>
+        </li> |
+
+    </ul>
+
+</header>
